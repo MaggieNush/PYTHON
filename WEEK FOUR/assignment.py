@@ -1,23 +1,3 @@
-# while True:
-#     try:
-#         filename = input("Enter the full path or name of the file: ") # Prompt user for file or path to the file
-#         new_filename = input("Enter the new filename to save the output: ")
-
-#         with open(filename, "r") as file:
-#             data = file.read()  # Read the entire file
-
-#             modified_data = "=== start of file ===\n" + data + "\n=== end of file ===" # Modify the content as needed
-
-#         with open(new_filename, "w") as new_file:
-#             new_file.write(modified_data) # Modify the content as needed
-#             print(f"Modified content has been saved to {new_filename}")
-
-#     except FileNotFoundError:
-#         print("The file was not found. Please check the full path or file name and try again.")
-#     except IOError:
-#         print("An error occurred while trying to read or write to the file. Please try again.")
-
-
 while True:
     try:
         filename = input("Enter the full path or name of the file: ")
